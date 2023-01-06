@@ -13,6 +13,7 @@
 		B42C96B429688B4900B7685C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42C96B229688B4900B7685C /* Main.storyboard */; };
 		B42C96B629688B4A00B7685C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42C96B529688B4A00B7685C /* Assets.xcassets */; };
 		B42C96B929688B4A00B7685C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42C96B729688B4A00B7685C /* LaunchScreen.storyboard */; };
+		B42C96C129688BC200B7685C /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B42C96C029688BC200B7685C /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B42C96B529688B4A00B7685C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B42C96B829688B4A00B7685C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B42C96BA29688B4A00B7685C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B42C96C029688BC200B7685C /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		B42C96AB29688B4900B7685C /* SeeFood */ = {
 			isa = PBXGroup;
 			children = (
+				B42C96C029688BC200B7685C /* Inceptionv3.mlmodel */,
 				B42C96AC29688B4900B7685C /* AppDelegate.swift */,
 				B42C96AE29688B4900B7685C /* SceneDelegate.swift */,
 				B42C96B029688B4900B7685C /* ViewController.swift */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B42C96B129688B4900B7685C /* ViewController.swift in Sources */,
+				B42C96C129688BC200B7685C /* Inceptionv3.mlmodel in Sources */,
 				B42C96AD29688B4900B7685C /* AppDelegate.swift in Sources */,
 				B42C96AF29688B4900B7685C /* SceneDelegate.swift in Sources */,
 			);
